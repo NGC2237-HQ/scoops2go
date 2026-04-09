@@ -7,6 +7,23 @@ This repository contains the **Scoops2Go API** (Spring Boot) and my complete tes
 Name: **Fu Nanjun**
 Student ID: **21906415**
 
+## Prerequisites
+
+- Java 21
+- Maven (or use the included Maven wrapper `./mvnw`)
+- Internet connection (for some API tests)
+
+## How to Run the Tests
+
+### Run All Unit/Integration Tests
+1. Open the `api` folder in IntelliJ IDEA
+2. Right-click on `src/test/java` → Run 'All Tests'
+3. Or run via Maven: `./mvnw test`
+
+### Run API Tests (Manual)
+1. Start the Spring Boot application: run `Scoops2GoApiApplication.java`
+2. Use Postman to test the endpoints
+
 ## Summary of work
 
 ### Test Case Design Specification
@@ -30,6 +47,12 @@ Student ID: **21906415**
 - **Tool:** Postman
 - **Tested Endpoints:** `GET /api/product`, `GET /api/product/{id}`, `POST /api/order`, `GET /api/order/{id}`, `PUT /api/order`, `DELETE /api/order/{id}`
 - **Test Cases:** TC_API_001 to TC_API_005 in `Scoops2GoTestCases.xlsx`
+
+### Current Test Status
+
+- **Total Tests:** 41 (28 automated, 13 manual)
+- **Passed:** 33 | **Failed:** 8
+- The 8 failures are due to identified defects (see Defect Report for details).
 
 ### Defect Report
 - **Location:** `Scoops2GoTestSummaryDefectReport.docx`
