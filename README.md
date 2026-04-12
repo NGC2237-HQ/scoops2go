@@ -35,13 +35,13 @@ Student ID: **21906415**
 #### Unit Tests
 - **Location:** `src/test/java/Scoops2Go/scoops2goapi/`
 - **Test Classes:**
-  - `controller/OrderControllerTest.java` - Controller layer tests using Mockito
-  - `infrastructure/PaymentGatewayTest.java` - StubPaymentGateway unit tests
-  - `service/OrderServiceTest.java` - Service layer tests with @Nested, @ParameterizedTest, and Mockito
+- `controller/OrderControllerTest.java` - Controller layer tests using Mockito
+- `infrastructure/PaymentGatewayTest.java` - StubPaymentGateway unit tests
+- `service/OrderServiceTest.java` - Service layer tests with @Nested, @ParameterizedTest, and Mockito
 
 #### Integration Tests (Extra)
 - **Location:** `src/test/java/Scoops2Go/scoops2goapi/integration/OrderServiceIntegrationTest.java`
-- **Description:** 3 additional integration tests verifying database persistence, retrieval, and deletion. These tests are **not part of the original test plan** but were added to demonstrate integration testing techniques taught in Week 2.
+- **Description:** 3 additional integration tests verifying database persistence, retrieval, and deletion. These tests are **not part of the original test plan** but were added to demonstrate integration testing techniques.
 
 #### API Tests (Manual)
 - **Tool:** Postman
